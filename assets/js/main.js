@@ -8,13 +8,12 @@ function addTodo() {
     }
     const li = document.createElement('li');
     li.textContent = todoInput.value;
-  
-    // Optionnel : ajouter une fonction pour supprimer une tâche
+
     li.addEventListener('click', function() {
         todoList.removeChild(li);
     });
     todoList.appendChild(li);
-    todoInput.value = ''; // vider l'input
+    todoInput.value = ''; 
 }
   
 
