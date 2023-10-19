@@ -12,6 +12,7 @@ function addTodo() {
     li.addEventListener('click', function() {
         todoList.removeChild(li);
     });
+    //retetr
     todoList.appendChild(li);
     todoInput.value = ''; 
 }
